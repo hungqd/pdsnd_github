@@ -10,11 +10,11 @@ Programming for Data Science with Python - Explore US Bikeshare Data
 This repository contains the "Explore US Bikeshare Data" project, part of the Udacity Data Analyst Nanodegree program. The project focuses on analyzing bikeshare usage data from Chicago, New York City, and Washington, D.C. to uncover trends and insights.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
-requirements.txt
+- bikeshare.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+- requirements.txt
 
 ### Credits
 
