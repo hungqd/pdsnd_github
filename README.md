@@ -18,5 +18,5 @@ requirements.txt
 
 ### Credits
 
-[Pandas Docs](https://pandas.pydata.org/docs)
-
+- [Pandas Docs](https://pandas.pydata.org/docs)
+- [Udacity Course - Programming for Data Science with Python](https://learn.udacity.com/nanodegrees/nd104)
