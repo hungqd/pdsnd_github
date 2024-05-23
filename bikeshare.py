@@ -52,11 +52,23 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while city not in ["chicago", "new york city", "washington"]:
-        city = input("Please enter Chicago, Washington or New York City for your analysis: ").strip().lower()
+        city = (
+            input(
+                "Please enter Chicago, Washington or New York City for your analysis: "
+            )
+            .strip()
+            .lower()
+        )
 
     # get user input for month (all, january, february, ... , june)
     while month not in ALL_MONTHS:
-        month = input("Enter any one of the first 6 months or enter All to select all 6 months: ").strip().lower()
+        month = (
+            input(
+                "Enter any one of the first 6 months or enter All to select all 6 months: "
+            )
+            .strip()
+            .lower()
+        )
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while day not in ALL_WEEKDAYS:
@@ -193,7 +205,7 @@ def user_stats(df):
 def ask_for_confirmation(message) -> bool:
     """
     Ask user to confirm 'Yes' or 'No'
-    
+
     Returns: True if user answered 'Yes', False if user answered 'No'.
     """
 
@@ -220,6 +232,7 @@ def show_raw_data(df):
         else:
             print(df.iloc[start_index : start_index + batch_size])
             start_index += batch_size
+
 
 def main():
     while True:
